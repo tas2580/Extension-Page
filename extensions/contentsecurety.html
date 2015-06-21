@@ -3,5 +3,8 @@ layout: phpbbext
 title: Content Security Policy
 ---
 
-{% assign ext = site.data.extdata['contentsecurety'] %}
+
+
+
+{% assign ext = {{ site.data.extensions.ext | where:"github","contentsecurety" }}%}
 {% include extension.html %}

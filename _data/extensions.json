@@ -1,6 +1,6 @@
 {
 
-	"extensions": [{
+	"ext": [{
 			"name": "AJAX Userinfo",
 			"description": "Displays a popup with information about users when you go with the mouse over an user name.",
 			"version": "0.1.1",

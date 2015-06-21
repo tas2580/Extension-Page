@@ -4,7 +4,6 @@ title: Content Security Policy
 ---
 
 
+{% capture ext %}{{  site.data.extensions.ext | where:"github","contentsecurety" }}{% endcapture %}
 
-
-{% assign ext = site.data.extensions.ext | where:"github","contentsecurety" %}
 {% include extension.html %}

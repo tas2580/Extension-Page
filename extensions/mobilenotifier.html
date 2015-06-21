@@ -3,41 +3,5 @@ layout: phpbbext
 title: Mobile Notifier
 ---
 
-
-{% assign extdata = site.data.extdata['mobilenotifier'] %}
-
-<h1>{{extdata.name}}</h1>
-<p>
-<strong>Author:</strong> <a href="https://tas2580.net/">tas2580</a><br />
-<strong>Version:</strong> {{extdata.version}}<br />
-<strong>phpBB Version:</strong> {{extdata.phpbb}}<br />
-<strong>Last update:</strong> {{extdata.update}}<br />
-
-<strong>Project Page:</strong> <a href="{{extdata.page}}">{{extdata.name}}</a><br />
-</p>
-
-<p><strong>Description:</strong><br />{{extdata.description}}</p>
-<br />
-<a href="https://github.com/{{extdata.github}}/archive/master.zip"><img src="../images/download-github.png" width="230" height="70" alt="Download" class="imgcenter" /></a>
-<br />
-
-<h2>Instalation</h2>
-<p>To install this extension download it from here and upload the files in your forum under <b>/ext/{{extdata.github}}</b>.
-After that go to the Admin panel of your forum and navigate in to Customise -> Extension Management -> Extensions. Search
-this extension in the list of extensions and click on Enable.</p>
-
-
-<h2>Support</h2>
-<p>You can get support for this extension at <a href="https://www.phpbb.com/community/viewtopic.php?f=456&t={{extdata.comid}}">phpbb.com</a>
-or in german language at <a href="https://www.phpbb.de/community/viewtopic.php?f=149&t={{extdata.deid}}">phpbb.de</a>. For more informations look at
-<a href="{{extdata.page}}">my Website</a>.</p>
-
-
-<h2>Help to translate</h2>
-<p>If you use the extension in your forum and translated it therefor in your language, it would be nice if you would send me a <a href="https://help.github.com/articles/using-pull-requests/">pull request</a>.
-Also it may be that existing translations after uptates of the extensions are incomplete. So you can help me if you complete or correct existing language files.</p>
-
-<h2>License</h2>
-<p>This Extension is published under <a href="http://opensource.org/licenses/gpl-2.0.php">GNU General Public License v2</a></p>
-
-<p><a href="https://travis-ci.org/{{extdata.github}}"><img src="https://travis-ci.org/{{extdata.github}}.svg?branch=master" /></a></p>
+{% assign ext = site.data.extdata['mobilenotifier'] %}
+{% include extension.html %}

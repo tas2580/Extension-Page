@@ -46,7 +46,7 @@
 			"github": "mobilenotifier",
 			"deid": "234623",
 			"comid": "2320511",
-			"longdescription": "<p>The extension adds a new field to the user profile into that users can enter their phone number and get notifies on WhatsApp®.</p><p>To use this Extension you need an account on WhatsApp®, see <a href=\"../howtos/whatsapp.html\">here</a> for more information."
+			"longdescription": "<p>The extension adds a new field to the user profile into that users can enter their phone number and get notifies about watched topics or new personal messages, and so on over WhatsApp®.</p><p>To use this Extension you need an account on WhatsApp®, see <a href=\"../howtos/whatsapp.html\">here</a> for more information."
 		},
 		{
 			"name": "SEO URLs",

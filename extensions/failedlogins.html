@@ -1,10 +1,10 @@
 ---
 layout: phpbbext
-title: AJAX Userinfo
+title: Failed logins
 ---
 
 
-{% assign extdata = site.data.extdata['userinfo'] %}
+{% assign extdata = site.data.extdata['failedlogins'] %}
 
 <h1>{{extdata.name}}</h1>
 <p>
@@ -12,7 +12,6 @@ title: AJAX Userinfo
 <strong>Version:</strong> {{extdata.version}}<br />
 <strong>phpBB Version:</strong> {{extdata.phpbb}}<br />
 <strong>Last update:</strong> {{extdata.update}}<br />
-<strong>Report issure:</strong> <a href="https://github.com/{{extdata.github}}/issues">Github</a><br />
 
 <strong>Project Page:</strong> <a href="{{extdata.page}}">{{extdata.name}}</a><br />
 </p>
@@ -23,7 +22,7 @@ title: AJAX Userinfo
 <br />
 
 <h2>Instalation</h2>
-<p>To install this extension download it from here and upload the files in your forum under <b>/ext/{{extdata.folder}}</b>.
+<p>To install this extension download it from here and upload the files in your forum under <b>/ext/{{extdata.github}}</b>.
 After that go to the Admin panel of your forum and navigate in to Customise -> Extension Management -> Extensions. Search
 this extension in the list of extensions and click on Enable.</p>
 

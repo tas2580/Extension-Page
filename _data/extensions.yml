@@ -1,22 +1,22 @@
 - name: AJAX Userinfo
   description: Displays a popup with information about users when you go with the mouse over an user name.
-  link: ajax-userinfo.html
+  link: userinfo.html
 
 - name: Content Security Policy
   description: Adds content securety headers to a phpBB forum.
-  link: content-security.html
+  link: contentsecurety.html
 
 - name: Failed logins
   description: If a user try to login and the login fails, this extension creates an entry in the user log. Also on the next login the user will see how much logins failed since his last login.
-  link: failed-logins.html
+  link: failedlogins.html
 
 - name: Mobile Notifier
   description: This Extension adds a new notifier type. Your users can enter a phone number in there profile and can get notifications on WhatsApp®.
-  link: mobile-notifier.html
+  link: mobilenotifier.html
 
 - name: SEO URLs
   description: Changes the URLs of forums and topics too more SEO friendly URLs with the title of the forums and topics in it. This extension is held as simple as possible, it contains no ACP, you can just install it and use the SEO friendly URLs.
-  link: seo-urls.html
+  link: seourls.html
 
 - name: Social Media Buttons
   description: Adds Social Media Buttons on each thread. To protect the privacy of the users, requestets at the Social Media platforms will be made by the web server. The data will be cached to avoid too many requests. You can choose between 10 different styles for the buttons.

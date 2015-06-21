@@ -5,8 +5,7 @@ userinfo:
     update: 7/4/2015
     page: https://tas2580.net/downloads/download-13.html
     description: Displays a popup with information about users when you go with the mouse over an user name.
-    github: tas2580/phpBB-3.1-AJAX-Userinfo
-    folder: tas2580/userinfo
+    github: tas2580/userinfo
     deid: 232974
     comid: 2281326
 
@@ -17,8 +16,7 @@ contentsecurety:
     update: 7/4/2015
     page: https://tas2580.net/downloads/download-8.html
     description: Adds content securety headers to a phpBB forum.
-    github: tas2580/phpBB-3.1-Content-Security-Policy
-    folder: tas2580/contentsecurety
+    github: tas2580/contentsecurety
     deid: 233090
     comid: 2285906
 
@@ -29,8 +27,7 @@ failedlogins:
     update: 7/4/2015
     page: https://tas2580.net/downloads/download-9.html
     description: If a user try to login and the login fails, this extension creates an entry in the user log. Also on the next login the user will see how much logins failed since his last login.
-    github: tas2580/phpBB-3.1-Failed-logins
-    folder: tas2580/failedlogins
+    github: tas2580/failedlogins
     deid: 233246
     comid: 2285906
 
@@ -41,8 +38,7 @@ mobilenotifier:
     update: 7/4/2015
     page: https://tas2580.net/downloads/download-14.html
     description: This Extension adds a new notifier type. Your users can enter a phone number in there profile and can get notifications on WhatsApp®.
-    github: tas2580/phpBB-3.1-Mobile-notifier
-    folder: tas2580/mobilenotifier
+    github: tas2580/mobilenotifier
     deid: 234623
     comid: 2320511
 
@@ -53,8 +49,7 @@ seourls:
     update: 7/4/2015
     page: https://tas2580.net/downloads/download-11.html
     description: Changes the URLs of forums and topics too more SEO friendly URLs with the title of the forums and topics in it. This extension is held as simple as possible, it contains no ACP, you can just install it and use the SEO friendly URLs.
-    github: tas2580/phpBB-3.1-SEO-URLs
-    folder: tas2580/seourls
+    github: tas2580/seourls
     deid: 233380
     comid: 2288486
 
@@ -65,8 +60,7 @@ socialbuttons:
     update: 7/4/2015
     page: https://tas2580.net/downloads/download-7.html
     description: Adds Social Media Buttons on each thread. To protect the privacy of the users, requestets at the Social Media platforms will be made by the web server. The data will be cached to avoid too many requests. You can choose between 10 different styles for the buttons.<br /><br /><b>Supported Platforms:</b><ul><li>Facebook</li><li>Twitter</li><li>Google+</li><li>Linkedin</li></ul>
-    github: tas2580/phpBB-3.1-Social-Media-Buttons
-    folder: tas2580/socialbuttons
+    github: tas2580/socialbuttons
     deid: 232974
     comid: 2281326
 
@@ -77,7 +71,6 @@ wiki:
     update: 7/4/2015
     page: https://tas2580.net/downloads/download-15.html
     description: Adds a simple wiki to your forum. On each edit the old version will be saved and you can compare the difference between the versions.
-    github: tas2580/phpBB-3.1-Wiki
-    folder: tas2580/wiki
+    github: tas2580/wiki
     deid: 234678
     comid: 2321031

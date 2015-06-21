@@ -1,0 +1,17 @@
+---
+layout: phpbbext
+title: Extensions
+---
+
+<h1>tas2580 phpBB Extensions</h1>
+<p>Here you can find an overview of all phpBB 3.1 Extensions that I have developed.
+	If you searching for phpBB 3.0 Modifications look at my <a href="https://tas2580-modifications.ml">Modifications pagel</a> to get a list of my phpBB 3.0 Modifications.</p>
+<hr />
+
+<ul>
+{% for extension in site.data.extensions %}
+<li><strong><a href="{{ extension.link }}">{{ extension.name }}</a></strong>
+	<p>{{ extension.description }}</p></li>
+{% endfor %}
+
+</ul>

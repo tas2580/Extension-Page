@@ -1,0 +1,33 @@
+---
+layout: phpbbext
+title: Get your WhatsApp® password
+---
+
+<h1>Get your WhatsApp® password</h1>
+
+<p>If you use my <a href="https://tas2580.ga/extensions/mobile-notifier.html">Mobile Notifier</a> Extension you need a phone number as username and a password to login into the WhatsApp® account that sould send the messages. For that you need a phone on that you can recive SMS or calls because you need to register a new WhatsApp® account on the phone number. WhatsApp® can only be used once per number, so you need a phone number on that you use no WhatsApp®.</p>
+
+
+<h2>With Windows</h2>
+<p>If you use Windows on your computer, you can use <a href="https://github.com/mgp25/WART">WART</a> to get your WhatsApp® password.</p>
+<p>Run WART and enter your phone number with country code and without 0 at the beginning. Choose whether you want to receive a call or want to get a SMS.
+Wait until you have received the Code and enter the Code to WART thereupon WART querys your password from WhatsApp® and showes it to you.</p>
+
+<h2>With Linux</h2>
+<p>As a Linux user you can use <a href="https://github.com/tgalal/yowsup/">yowsup</a> to get your password from WhatsApp®. Open a command line window and type:</p>
+<pre>wget https://github.com/tgalal/yowsup/archive/master.zip
+unzip master.zip
+cd yowsup-master/</pre>
+<p class="node">On Debian you need the <em>python-dateutil</em> package. Install it with <code>apt-get install python-dateutil</code></p>
+<p>After that edit the config file called <em>config.cfg</em> and enter the following to it</p>
+<pre>cc={CC}
+phone={CC}{PHONE NUMBER} (without 0 at the beginning)
+id=
+password=</pre>
+<p class="node">Replace <code>{CC}</code> with your country code and <code>{PHONE NUMBER}</code> with your phone number.</p>
+<p>Now you can run yowsup to get a SMS with a Code. If you whant to recive a call replace <code>sms</code> with <code>call</code> in the command.</p>
+<pre>python yowsup-cli registration -c config.cfg -r sms</pre>
+<p>After you have recived the Code run the following command, replace <code>{YOUR CODE}</code> with the Code you have recived. You need only the numbers without the hyphen.</p>
+
+<pre>python yowsup-cli registration -c config.cfg -R {YOUR CODE}</pre>
+<p>Now yowsup will display you the password and some other data about your WhatsApp® Account.</p>

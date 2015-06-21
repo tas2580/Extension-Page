@@ -20,7 +20,7 @@
 
 - name: Social Media Buttons
   description: Adds Social Media Buttons on each thread. To protect the privacy of the users, requestets at the Social Media platforms will be made by the web server. The data will be cached to avoid too many requests. You can choose between 10 different styles for the buttons.
-  link: social-buttons.html
+  link: socialbuttons.html
 
 - name: Wiki
   description: Adds a simple wiki to your forum. On each edit the old version will be saved and you can compare the difference between the versions.

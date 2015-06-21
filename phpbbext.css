@@ -1,9 +1,15 @@
+@font-face {
+   font-family: 'cocon';
+   src: url( cocon-regular-webfont.ttf) format('truetype');
+}
+
 *{
 	margin:0;
 	padding:0;
 }
 
 header{
+
 	box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.75);
 	height:40px;
 	border-top: 3px solid #1F8ECF;
@@ -17,6 +23,7 @@ header{
 }
 
 header a{
+	font-family: 'cocon';
 	color:#325D72;
 	text-decoration:none;
 	vertical-align:top;
@@ -75,6 +82,7 @@ header nav a {
 	text-shadow:none;
 	text-align:center;
 	color:#1F8ECF;
+	font-family:"Trebuchet MS",Arial,Helvetica,sans-serif;
 }
 
 a {
@@ -103,6 +111,8 @@ main {
 }
 
 h1 {
+	font-weight:normal;
+	font-family: 'cocon';
 	padding-bottom:20px;
 	text-shadow: 2px 2px 3px #444;
 	color:#222;

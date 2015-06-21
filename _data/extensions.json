@@ -1,0 +1,89 @@
+{
+
+	"extensions": [{
+			"name": "AJAX Userinfo",
+			"description": "Displays a popup with information about users when you go with the mouse over an user name.",
+			"version": "0.1.1",
+			"phpbb": "3.1.4",
+			"update": "7/4/2015",
+			"page": "https://tas2580.net/downloads/download-13.html",
+			"github": "userinfo",
+			"deid": "232974",
+			"comid": "2281326",
+			"longdescription": "Displays a popup with information about users when you go with the mouse over an user name."
+		},
+		{
+			"name": "Content Security Policy",
+			"description": "Adds content securety headers to a phpBB forum.",
+			"version": "0.1.0",
+			"phpbb": "3.1.4",
+			"update": "7/4/2015",
+			"page": "https://tas2580.net/downloads/download-8.html",
+			"github": "contentsecurety",
+			"deid": "233090",
+			"comid": "2285906",
+			"longdescription": "Adds content securety headers to a phpBB forum."
+		},
+		{
+			"name": "Failed logins",
+			"description": "If a user try to login and the login fails, this extension creates an entry in the user log. Also on the next login the user will see how much logins failed since his last login.",
+			"version": "1.1.0 RC1",
+			"phpbb": "3.1.4",
+			"update": "7/4/2015",
+			"page": "https://tas2580.net/downloads/download-9.html",
+			"github": "failedlogins",
+			"deid": "233246",
+			"comid": "2285906",
+			"longdescription": "If a user try to login and the login fails, this extension creates an entry in the user log. Also on the next login the user will see how much logins failed since his last login."
+		},
+		{
+			"name": "Mobile Notifier",
+			"description": "This Extension adds a new notifier type. Your users can enter a phone number in there profile and can get notifications on WhatsApp®.",
+			"version": "0.2.0",
+			"phpbb": "3.1.4",
+			"update": "7/4/2015",
+			"page": "https://tas2580.net/downloads/download-14.html",
+			"github": "mobilenotifier",
+			"deid": "234623",
+			"comid": "2320511",
+			"longdescription": "This Extension adds a new notifier type. Your users can enter a phone number in there profile and can get notifications on WhatsApp®."
+		},
+		{
+			"name": "SEO URLs",
+			"description": "Changes the URLs of forums and topics too more SEO friendly URLs with the title of the forums and topics in it. This extension is held as simple as possible, it contains no ACP, you can just install it and use the SEO friendly URLs.",
+			"version": "0.2.1",
+			"phpbb": "3.1.4",
+			"update": "7/4/2015",
+			"page": "https://tas2580.net/downloads/download-11.html",
+			"github": "seourls",
+			"deid": "233380",
+			"comid": "2288486",
+			"longdescription": "Changes the URLs of forums and topics too more SEO friendly URLs with the title of the forums and topics in it. This extension is held as simple as possible, it contains no ACP, you can just install it and use the SEO friendly URLs."
+		},
+		{
+			"name": "Social Media Buttons",
+			"description": "Adds Social Media Buttons on each thread. To protect the privacy of the users, requestets at the Social Media platforms will be made by the web server. The data will be cached to avoid too many requests. You can choose between 10 different styles for the buttons.",
+			"version": "1.0.0 RC1",
+			"phpbb": "3.1.4",
+			"update": "7/4/2015",
+			"page": "https://tas2580.net/downloads/download-7.html",
+			"github": "socialbuttons",
+			"deid": "232974",
+			"comid": "2281326",
+			"longdescription": "Adds Social Media Buttons on each thread. To protect the privacy of the users, requestets at the Social Media platforms will be made by the web server. The data will be cached to avoid too many requests. You can choose between 10 different styles for the buttons.<br /><br /><b>Supported Platforms:</b><ul><li>Facebook</li><li>Twitter</li><li>Google+</li><li>Linkedin</li></ul>"
+		},
+		{
+			"name": "Wiki",
+			"description": "Adds a simple wiki to your forum. On each edit the old version will be saved and you can compare the difference between the versions.",
+			"version": "0.1.1",
+			"phpbb": "3.1.4",
+			"update": "7/4/2015",
+			"page": "https://tas2580.net/downloads/download-15.html",
+			"github": "wiki",
+			"deid": "234678",
+			"comid": "2321031",
+			"longdescription": "Adds a simple wiki to your forum. On each edit the old version will be saved and you can compare the difference between the versions."
+		}
+		]
+
+}

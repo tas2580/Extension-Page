@@ -161,5 +161,9 @@ footer a {
 
 	header img {
 		width: 20px;
+		height: 20px;
+	}
+	header nav a {
+		width: 80px;
 	}
 }

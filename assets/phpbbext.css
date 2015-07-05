@@ -174,5 +174,9 @@ footer a {
 	header nav a {
 		display: block;
 		width: 70px;
+		height: 15px;
+	}
+	main {
+		width:100%;
 	}
 }

@@ -160,11 +160,19 @@ footer a {
 		height: 25px;
 	}
 
+	header a {
+		display: none;
+	}
+
 	header img {
 		width: 20px;
 		height: 20px;
 	}
+	header nav {
+		width: 90%;
+	}
 	header nav a {
+		display: block;
 		width: 70px;
 	}
 }

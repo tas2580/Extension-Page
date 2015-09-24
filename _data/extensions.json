@@ -83,6 +83,18 @@
 			"deid": "234678",
 			"comid": "2321031",
 			"longdescription": "Adds a simple wiki to your forum. On each edit the old version will be saved and you can compare the difference between the versions."
+		},
+		{
+			"name": "Paypal",
+			"description": "Adds a page that allows an user to domate via Paypal.",
+			"version": "0.1.0",
+			"phpbb": "3.1.4",
+			"update": "9/24/2015",
+			"page": "https://tas2580.net/downloads/download-17.html",
+			"github": "paypal",
+			"deid": "0",
+			"comid": "0",
+			"longdescription": "Adds a page that allows an user to domate via Paypal."
 		}
 		]
 

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>https://tas2580-extensions.ml/</loc>
+	</url>
+	<url>
+		<loc>https://tas2580-extensions.ml/extensions/</loc>
+	</url>
+
+	<url>
+		<loc>https://tas2580-extensions.ml/extensions/userinfo.html</loc>
+	</url>
+	<url>
+		<loc>https://tas2580-extensions.ml/extensions/contentsecurety.html</loc>
+	</url>
+	<url>
+		<loc>https://tas2580-extensions.ml/extensions/failedlogins.html</loc>
+	</url>
+	<url>
+		<loc>https://tas2580-extensions.ml/extensions/mobilenotifier.html</loc>
+	</url>
+	<url>
+		<loc>https://tas2580-extensions.ml/extensions/seourls.html</loc>
+	</url>
+	<url>
+		<loc>https://tas2580-extensions.ml/extensions/socialbuttons.html</loc>
+	</url>
+	<url>
+		<loc>https://tas2580-extensions.ml/extensions/wiki.html</loc>
+	</url>
+	<url>
+		<loc>https://tas2580-extensions.ml/extensions/paypal.html</loc>
+	</url>
+	<url>
+		<loc>https://tas2580-extensions.ml/extensions/extlist.html</loc>
+	</url>
+</urlset>

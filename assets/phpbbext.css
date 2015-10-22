@@ -147,6 +147,16 @@ footer a {
 	text-decoration:underline;
 }
 
+
+aside{
+	position:fixed;
+	right:10px;
+	top:10px;
+	width:160px;
+	height:600px;	
+}
+
+
 .imgcenter {
 	display:block;
 	margin:0 auto;
